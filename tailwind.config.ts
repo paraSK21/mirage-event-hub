@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Mirage event colors
+				mirage: {
+					orange: '#FF914D',
+					purple: '#7776BC',
+					blue: '#81D2C7',
+					yellow: '#FFDF64',
 				}
 			},
 			borderRadius: {
@@ -84,11 +92,23 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' },
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 3s ease-in-out infinite',
+			},
+			fontFamily: {
+				'ahsing': ['Ahsing', 'sans-serif'],
+				'sunborn': ['Sunborn', 'sans-serif'],
+			},
+			backgroundImage: {
+				'hero-pattern': "url('/lovable-uploads/cd615528-b697-4587-9c92-4d3d751dd759.png')",
 			}
 		}
 	},

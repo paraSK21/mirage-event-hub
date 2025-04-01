@@ -11,6 +11,7 @@ import Schedule from "./pages/Schedule";
 import Cart from "./pages/Cart";
 import Payment from "./pages/Payment";
 import NotFound from "./pages/NotFound";
+import './assets/styles/main.css';
 
 const queryClient = new QueryClient();
 

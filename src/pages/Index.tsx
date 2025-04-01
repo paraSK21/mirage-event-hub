@@ -8,10 +8,10 @@ import { Calendar, MapPin, ArrowRight } from "lucide-react";
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
+      <Navbar /> 
       
       <main className="flex-grow">
-        <Hero />
+        <Hero /> 
         
         {/* Highlights Section */}
         <section className="py-16 bg-mirage-purple/10">

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Ahsing';
+    src:url(../fonts/ahsing-regular_freefontdownload_org/ahsing-regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sunborn';
+    src:url(../fonts/sunborn-font-family/Sunborn/Font_Files/Sunborn-SansOne.otf ) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

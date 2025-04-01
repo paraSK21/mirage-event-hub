@@ -8,7 +8,7 @@ import { getCartItems } from '@/lib/data';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const location = useLocation();
+  const location = useLocation(); 
   const { toast } = useToast();
   const cartItems = getCartItems();
   const cartItemCount = cartItems.reduce((acc, item) => acc + item.quantity, 0);
@@ -29,13 +29,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-mirage-purple sticky top-0 z-50 shadow-md">
+    <nav className="bg-[#FF914D] sticky top-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
               <span className="font-ahsing text-white text-3xl">MIRAGE</span>
-              <span className="ml-2 text-mirage-yellow font-sunborn text-sm">2023</span>
+              <span className="ml-2 text-mirage-yellow font-sunborn text-sm">2025</span>
             </Link>
           </div>
           

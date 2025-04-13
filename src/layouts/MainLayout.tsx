@@ -1,0 +1,20 @@
+
+import { ReactNode } from 'react';
+import { useLoading } from '../context/LoadingContext';
+import LoadingOverlay from '../components/LoadingOverlay';
+
+interface MainLayoutProps {
+  children: ReactNode;
+}
+
+export default function MainLayout({ children }: MainLayoutProps) {
+  const { isLoading } = useLoading();
+  const giphyUrl = 'https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2FueHF2Z3l1OWtoYmwzYWh3b2JzcW5mbG4zYjBxNTR2cmYwOG5qbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TZ2oBnEvY9iMgJWuRS/giphy.gif'; // Replace with your actual Giphy URL
+  
+  return (
+    <div className="main-layout">
+      {isLoading && <LoadingOverlay giphyUrl={giphyUrl} />}
+      {children}
+    </div>
+  );
+}

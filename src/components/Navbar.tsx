@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ShoppingCart } from 'lucide-react';
@@ -19,13 +18,6 @@ const Navbar = () => {
 
   const isActive = (path: string) => {
     return location.pathname === path;
-  };
-
-  const handleDownloadBrochure = () => {
-    toast({
-      title: "Brochure Download",
-      description: "The event brochure will be available for download soon.",
-    });
   };
 
   return (
@@ -66,12 +58,14 @@ const Navbar = () => {
               >
                 Schedule
               </Link>
-              <button
-                onClick={handleDownloadBrochure}
+              <a
+                href="https://www.canva.com/design/DAGjw6Wb-0o/1dfeYL-XoknrkTbi75cp1A/edit"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white hover:bg-mirage-purple/90 hover:text-mirage-yellow px-3 py-2 rounded-md text-sm font-medium font-sunborn transition duration-300"
               >
                 Download Brochure
-              </button>
+              </a>
             </div>
           </div>
           
@@ -133,15 +127,15 @@ const Navbar = () => {
             >
               Schedule
             </Link>
-            <button
-              onClick={() => {
-                handleDownloadBrochure();
-                toggleMenu();
-              }}
+            <a
+              href="https://www.canva.com/design/DAGjw6Wb-0o/1dfeYL-XoknrkTbi75cp1A/edit"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-white hover:bg-mirage-purple/90 hover:text-mirage-yellow block px-3 py-2 rounded-md text-base font-medium font-sunborn w-full text-left"
+              onClick={toggleMenu}
             >
               Download Brochure
-            </button>
+            </a>
           </div>
         </div>
       )}

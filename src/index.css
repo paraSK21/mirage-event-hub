@@ -109,3 +109,15 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+.bg-desktop {
+  @apply bg-fixed bg-cover bg-center;
+  background-image: url('/lovable-uploads/cd615528-b697-4587-9c92-4d3d751dd759.png');
+}
+
+
+.bg-mobile {
+  @apply bg-fixed bg-cover bg-center;
+  background-image: url(../public/lovable-uploads/Screenshot\ from\ 2025-04-01\ 23-42-06.png);
+}

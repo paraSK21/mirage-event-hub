@@ -1,11 +1,8 @@
-
 import { useState } from 'react';
-import { Calendar, Clock, MapPin, Info, Plus, Minus } from 'lucide-react';
+import { Calendar, Clock, MapPin, Info } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Event } from '@/lib/types';
-import { addToCart, getCartItems } from '@/lib/data';
-import { useToast } from '@/hooks/use-toast';
 
 interface EventCardProps {
   event: Event;
@@ -13,25 +10,6 @@ interface EventCardProps {
 
 const EventCard = ({ event }: EventCardProps) => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
-  const [quantity, setQuantity] = useState(1);
-  const { toast } = useToast();
-
-  const handleAddToCart = () => {
-    if (quantity <= 0) return;
-    
-    addToCart(event, quantity);
-    setIsDialogOpen(false);
-    
-    toast({
-      title: "Added to cart",
-      description: `${quantity} ticket${quantity > 1 ? 's' : ''} for ${event.title} added to your cart.`,
-    });
-    
-    setQuantity(1);
-  };
-
-  const increaseQuantity = () => setQuantity(prev => prev + 1);
-  const decreaseQuantity = () => setQuantity(prev => Math.max(1, prev - 1));
 
   return (
     <div className="mirage-card border-mirage-purple overflow-hidden flex flex-col h-full">
@@ -97,52 +75,25 @@ const EventCard = ({ event }: EventCardProps) => {
                   </div>
                 </div>
                 
-                <div className="flex justify-between items-center mb-6">
+                <div className="mb-6">
                   <span className="font-bold text-lg">Price: ₹{event.price}</span>
-                  <div className="flex items-center gap-2">
-                    <Button 
-                      variant="outline" 
-                      size="icon" 
-                      className="h-8 w-8 rounded-full"
-                      onClick={decreaseQuantity}
-                    >
-                      <Minus className="h-4 w-4" />
-                    </Button>
-                    <span className="w-8 text-center">{quantity}</span>
-                    <Button 
-                      variant="outline" 
-                      size="icon" 
-                      className="h-8 w-8 rounded-full"
-                      onClick={increaseQuantity}
-                    >
-                      <Plus className="h-4 w-4" />
-                    </Button>
-                  </div>
                 </div>
                 
-                <Button 
-                  className="w-full bg-mirage-orange hover:bg-mirage-orange/90 text-white"
-                  onClick={handleAddToCart}
-                >
-                  Add to Cart - ₹{event.price * quantity}
-                </Button>
+                <a href="https://forms.easebuzz.in/sign-up/Bpvlxs/mirage2025/?inst_name=Bpvlxs&form_name=mirage2025&jsonData=1" target="_blank" rel="noopener noreferrer">
+                  <Button className="w-full bg-mirage-orange hover:bg-mirage-orange/90 text-white">
+                    Register Now
+                  </Button>
+                </a>
               </DialogDescription>
             </DialogHeader>
           </DialogContent>
         </Dialog>
         
-        <Button 
-          className="bg-mirage-orange hover:bg-mirage-orange/90 text-white"
-          onClick={() => {
-            addToCart(event, 1);
-            toast({
-              title: "Added to cart",
-              description: `1 ticket for ${event.title} added to your cart.`,
-            });
-          }}
-        >
-          Register Now
-        </Button>
+        <a href="https://forms.easebuzz.in/sign-up/Bpvlxs/mirage2025/?inst_name=Bpvlxs&form_name=mirage2025&jsonData=1" target="_blank" rel="noopener noreferrer">
+          <Button className="bg-mirage-orange hover:bg-mirage-orange/90 text-white">
+            Register Now
+          </Button>
+        </a>
       </div>
     </div>
   );

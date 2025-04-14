@@ -2,13 +2,10 @@
 export interface Event {
   id: number;
   title: string;
-  description: string;
   price: number;
-  date: string;
-  time: string;
-  venue: string;
+  description?: string;
   image: string;
-  category: 'cultural' | 'technical' | 'sports' | 'workshop' | 'other';
+ 
 }
 
 export interface CartItem {
@@ -18,7 +15,7 @@ export interface CartItem {
   participantEmail?: string;
   participantPhone?: string;
   participantCollege?: string;
-}
+}  
 
 export interface Schedule {
   day: string;

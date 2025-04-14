@@ -12,7 +12,7 @@ const Navbar = () => {
   const cartItems = getCartItems();
   const cartItemCount = cartItems.reduce((acc, item) => acc + item.quantity, 0);
 
-  const toggleMenu = () => {
+  const toggleMenu = () => { 
     setIsMenuOpen(!isMenuOpen);
   };
 
@@ -70,14 +70,14 @@ const Navbar = () => {
           </div>
           
           <div className="flex items-center">
-            <Link to="/cart" className="relative p-2 text-white hover:text-mirage-yellow mr-2">
+            {/* <Link to="/cart" className="relative p-2 text-white hover:text-mirage-yellow mr-2">
               <ShoppingCart className="h-6 w-6" />
               {cartItemCount > 0 && (
                 <span className="absolute -top-1 -right-1 bg-mirage-orange text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
                   {cartItemCount}
                 </span>
               )}
-            </Link>
+            </Link> */}
             
             <div className="md:hidden">
               <button

@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -26,7 +25,7 @@ const About = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <h1 className="text-5xl md:text-6xl font-ahsing text-white mb-4 text-center">About MIRAGE</h1>
             <p className="text-xl font-sunborn text-mirage-yellow text-center max-w-3xl mx-auto">
-              A vibrant celebration of Mexican culture and heritage
+              Where Culture Comes Alive
             </p>
           </div>
         </section>
@@ -36,15 +35,15 @@ const About = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl font-ahsing text-mirage-purple mb-6">Welcome to MIRAGE 2023</h2>
+                <h2 className="text-3xl font-ahsing text-mirage-purple mb-6">Welcome to MIRAGE</h2>
                 <p className="mb-4">
-                  MIRAGE is an annual cultural festival hosted by Bharati Vidyapeeth DEEMED TO BE University Medical College Pune, celebrating the vibrant colors, sounds, and traditions of Mexican culture.
+                  Since 2012, Mirage has been more than just a cultural fest for Bharati Vidyapeeth Medical College—it's been a celebration of imagination, talent, and togetherness. Born from a desire to offer students a break from the rigors of medical academia, Mirage has grown into a pulsating hub of creativity, expression, and intercollegiate camaraderie.
                 </p>
                 <p className="mb-4">
-                  Now in its fifth year, MIRAGE has grown to become one of the most anticipated cultural events in the college calendar, attracting participants and visitors from across the region.
+                  What sets Mirage apart is not just the scale of the events, but the heart that drives it. Every year, our students pour in relentless effort, infusing the fest with new ideas, fresh energy, and an unwavering commitment to excellence.
                 </p>
                 <p className="mb-6">
-                  This three-day extravaganza features a diverse array of events including workshops, performances, competitions, exhibitions, and culinary experiences, all designed to immerse participants in the rich tapestry of Mexican heritage.
+                  Backed by the wholehearted support of faculty and administration, Mirage has become a signature event that reflects the vibrant spirit of our college community.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -86,37 +85,82 @@ const About = () => {
             <h2 className="text-4xl font-ahsing text-center text-mirage-purple mb-12">Event Details</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="mirage-card p-8 border-mirage-orange">
+              <div className="mirage-card p-8 border-mirage-orange bg-white">
                 <div className="w-16 h-16 rounded-full bg-mirage-orange flex items-center justify-center mb-6 mx-auto">
                   <Calendar className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="font-sunborn text-xl mb-4 text-center">Dates</h3>
                 <p className="text-center">
-                  <span className="font-bold block mb-2">May 6th - 8th, 2023</span>
+                  <span className="font-bold block mb-2">Coming Soon</span>
                   Three days of non-stop celebrations, performances, and activities
                 </p>
               </div>
               
-              <div className="mirage-card p-8 border-mirage-blue">
+              <div className="mirage-card p-8 border-mirage-blue bg-white">
                 <div className="w-16 h-16 rounded-full bg-mirage-blue flex items-center justify-center mb-6 mx-auto">
                   <MapPin className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="font-sunborn text-xl mb-4 text-center">Venue</h3>
                 <p className="text-center">
-                  <span className="font-bold block mb-2">Bharati Vidyapeeth DEEMED TO BE University Medical College</span>
+                  <span className="font-bold block mb-2">Bharati Vidyapeeth Medical College</span>
                   Multiple locations across campus including auditoriums, outdoor spaces, and studios
                 </p>
               </div>
               
-              <div className="mirage-card p-8 border-mirage-yellow">
+              <div className="mirage-card p-8 border-mirage-yellow bg-white">
                 <div className="w-16 h-16 rounded-full bg-mirage-yellow flex items-center justify-center mb-6 mx-auto">
                   <Info className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="font-sunborn text-xl mb-4 text-center">Participation</h3>
                 <p className="text-center">
                   <span className="font-bold block mb-2">Open to All</span>
-                  Students, faculty, and visitors are all welcome to participate in the festivities
+                  Students from all colleges are welcome to participate in this intercollegiate festival
                 </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        {/* What Makes Mirage Special */}
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-4xl font-ahsing text-center text-mirage-purple mb-12">What Makes Mirage Special</h2>
+            
+            <div className="bg-mirage-purple/5 rounded-xl p-8 shadow-lg">
+              <p className="mb-6 text-lg">
+                Year after year, Mirage has pushed the boundaries of innovation and inclusivity. Each edition is a testament to our students' passion, planning, and performance. Mirage has something for everyone:
+              </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                <div className="p-4 rounded-lg bg-white border border-mirage-purple/30">
+                  <h3 className="font-sunborn text-lg mb-2 text-mirage-yellow">Dance Competitions</h3>
+                  <p>High-octane dance battles that light up the stage and energize the crowd</p>
+                </div>
+                
+                <div className="p-4 rounded-lg bg-white border border-mirage-purple/30">
+                  <h3 className="font-sunborn text-lg mb-2 text-mirage-yellow">Musical Performances</h3>
+                  <p>Soul-stirring musical performances that move the crowd and create lasting memories</p>
+                </div>
+                
+                <div className="p-4 rounded-lg bg-white border border-mirage-purple/30">
+                  <h3 className="font-sunborn text-lg mb-2 text-mirage-yellow">Fashion Shows</h3>
+                  <p>Dazzling fashion shows that showcase elegance, creativity, and style</p>
+                </div>
+                
+                <div className="p-4 rounded-lg bg-white border border-mirage-purple/30">
+                  <h3 className="font-sunborn text-lg mb-2 text-mirage-yellow">Debates & Quizzes</h3>
+                  <p>Intellectually stimulating debates and quizzes that challenge the sharpest minds</p>
+                </div>
+                
+                <div className="p-4 rounded-lg bg-white border border-mirage-purple/30">
+                  <h3 className="font-sunborn text-lg mb-2 text-mirage-yellow">Photography Contests</h3>
+                  <p>Creative photography competitions that capture moments and perspectives</p>
+                </div>
+                
+                <div className="p-4 rounded-lg bg-white border border-mirage-purple/30">
+                  <h3 className="font-sunborn text-lg mb-2 text-mirage-yellow">Modern Culture</h3>
+                  <p>Gaming tournaments, meme battles, open mics, and more for every form of talent</p>
+                </div>
               </div>
             </div>
           </div>
@@ -159,10 +203,10 @@ const About = () => {
                   <div className="absolute top-5 -left-4 md:-left-4 w-8 h-8 rounded-full bg-mirage-orange flex items-center justify-center">
                     <span className="text-white font-bold">1</span>
                   </div>
-                  <div className="mirage-card p-6 border-mirage-orange">
-                    <h3 className="font-sunborn text-xl mb-2">MIRAGE Begins</h3>
-                    <p className="text-gray-600 mb-2">2019</p>
-                    <p>MIRAGE started as a small cultural day celebration with just 5 events and 200 participants, focusing on introducing Mexican culture to the campus.</p>
+                  <div className="mirage-card p-6 border-mirage-orange bg-white">
+                    <h3 className="font-sunborn text-xl mb-2">The Beginning</h3>
+                    <p className="text-gray-600 mb-2">2012</p>
+                    <p>Mirage was born from a desire to offer students a break from the rigors of medical academia, starting as a small celebration of creativity.</p>
                   </div>
                 </div>
                 
@@ -170,10 +214,10 @@ const About = () => {
                   <div className="absolute top-5 -right-4 md:-right-4 w-8 h-8 rounded-full bg-mirage-purple flex items-center justify-center">
                     <span className="text-white font-bold">2</span>
                   </div>
-                  <div className="mirage-card p-6 border-mirage-purple">
+                  <div className="mirage-card p-6 border-mirage-purple bg-white">
                     <h3 className="font-sunborn text-xl mb-2">Growing Popularity</h3>
-                    <p className="text-gray-600 mb-2">2020</p>
-                    <p>Despite moving online due to COVID-19, MIRAGE expanded to include 10 virtual events, reaching over 500 participants across multiple colleges.</p>
+                    <p className="text-gray-600 mb-2">2015-2018</p>
+                    <p>Mirage expanded to include more events and began attracting participants from across the campus, becoming a signature event.</p>
                   </div>
                 </div>
                 
@@ -181,10 +225,10 @@ const About = () => {
                   <div className="absolute top-5 -left-4 md:-left-4 w-8 h-8 rounded-full bg-mirage-blue flex items-center justify-center">
                     <span className="text-white font-bold">3</span>
                   </div>
-                  <div className="mirage-card p-6 border-mirage-blue">
-                    <h3 className="font-sunborn text-xl mb-2">Regional Recognition</h3>
-                    <p className="text-gray-600 mb-2">2021</p>
-                    <p>The festival gained regional recognition with hybrid events attended by over 700 participants and featured guest performances from Mexican cultural groups.</p>
+                  <div className="mirage-card p-6 border-mirage-blue bg-white">
+                    <h3 className="font-sunborn text-xl mb-2">Intercollegiate Expansion</h3>
+                    <p className="text-gray-600 mb-2">2019-2021</p>
+                    <p>The festival gained regional recognition and expanded to welcome students from other colleges, becoming a true intercollegiate celebration.</p>
                   </div>
                 </div>
                 
@@ -192,10 +236,10 @@ const About = () => {
                   <div className="absolute top-5 -right-4 md:-right-4 w-8 h-8 rounded-full bg-mirage-yellow flex items-center justify-center">
                     <span className="text-white font-bold">4</span>
                   </div>
-                  <div className="mirage-card p-6 border-mirage-yellow">
+                  <div className="mirage-card p-6 border-mirage-yellow bg-white">
                     <h3 className="font-sunborn text-xl mb-2">Full Scale Festival</h3>
-                    <p className="text-gray-600 mb-2">2022</p>
-                    <p>MIRAGE returned to a fully in-person format with 15 events spanning two days and attracted over 900 participants from across the state.</p>
+                    <p className="text-gray-600 mb-2">2022-2023</p>
+                    <p>Mirage evolved into a full-scale cultural festival with a diverse array of events spanning multiple days and attracting participants from across the region.</p>
                   </div>
                 </div>
                 
@@ -203,10 +247,10 @@ const About = () => {
                   <div className="absolute top-5 -left-4 md:-left-4 w-8 h-8 rounded-full bg-mirage-orange flex items-center justify-center">
                     <span className="text-white font-bold">5</span>
                   </div>
-                  <div className="mirage-card p-6 border-mirage-orange">
-                    <h3 className="font-sunborn text-xl mb-2">MIRAGE 2023</h3>
-                    <p className="text-gray-600 mb-2">2023</p>
-                    <p>Now in its fifth year, MIRAGE 2023 expands to a three-day extravaganza with over 20 events, expecting more than 1000 participants from across the region.</p>
+                  <div className="mirage-card p-6 border-mirage-orange bg-white">
+                    <h3 className="font-sunborn text-xl mb-2">MIRAGE 2025</h3>
+                    <p className="text-gray-600 mb-2">Coming Soon</p>
+                    <p>With renewed energy and an expanded vision, Mirage 2025 promises to be the most ambitious yet with a stellar lineup of events, breathtaking performances, and exciting new additions.</p>
                   </div>
                 </div>
               </div>
@@ -217,8 +261,8 @@ const About = () => {
         {/* CTA Section */}
         <section className="py-20 bg-gradient-to-r from-mirage-purple to-mirage-blue text-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-5xl font-ahsing mb-6">Join Us for MIRAGE 2023</h2>
-            <p className="text-xl font-sunborn mb-10 max-w-3xl mx-auto">Be part of this cultural celebration and immerse yourself in the vibrant colors, sounds, and traditions of Mexico!</p>
+            <h2 className="text-5xl font-ahsing mb-6">Join Us for MIRAGE 2025</h2>
+            <p className="text-xl font-sunborn mb-10 max-w-3xl mx-auto">Be part of this extraordinary journey where talent meets opportunity, and memories are etched in vibrant hues. Let's create magic. Let's create Mirage.</p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button 
                 className="bg-mirage-orange hover:bg-mirage-orange/90 text-white font-sunborn py-6 px-8 text-lg"
@@ -236,30 +280,6 @@ const About = () => {
           </div>
         </section>
       </main>
-      
-      {/* Footer */}
-      <footer className="bg-mirage-purple text-white py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-6 md:mb-0">
-              <span className="font-ahsing text-3xl">MIRAGE</span>
-              <span className="ml-2 text-mirage-yellow font-sunborn text-sm">2023</span>
-            </div>
-            
-            <div className="flex flex-col md:flex-row gap-4 md:gap-8">
-              <Link to="/" className="text-center md:text-left hover:text-mirage-yellow transition-colors">Home</Link>
-              <Link to="/about" className="text-center md:text-left hover:text-mirage-yellow transition-colors">About</Link>
-              <Link to="/events" className="text-center md:text-left hover:text-mirage-yellow transition-colors">Events</Link>
-              <Link to="/schedule" className="text-center md:text-left hover:text-mirage-yellow transition-colors">Schedule</Link>
-              <Link to="/cart" className="text-center md:text-left hover:text-mirage-yellow transition-colors">Cart</Link>
-            </div>
-          </div>
-          
-          <div className="border-t border-mirage-purple/30 mt-8 pt-8 text-center text-sm text-mirage-purple-200">
-            <p>&copy; 2023 MIRAGE. All rights reserved. Designed for Bharati Vidyapeeth DEEMED TO BE University Medical College</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };

@@ -112,12 +112,22 @@ body {
 
 
 .bg-desktop {
-  @apply bg-fixed bg-cover bg-center;
-  background-image: url('/lovable-uploads/cd615528-b697-4587-9c92-4d3d751dd759.png');
+  @apply bg-fixed;
+  background-image: url(../public/lovable-uploads/Screenshot\ from\ 2025-04-01\ 23-42-06.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 
 .bg-mobile {
-  @apply bg-fixed bg-cover bg-center;
-  background-image: url(../public/lovable-uploads/Screenshot\ from\ 2025-04-01\ 23-42-06.png);
+  @apply bg-fixed;
+  background-image: url(../public/Mirage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }

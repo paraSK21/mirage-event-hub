@@ -7,13 +7,186 @@ export const EVENTS: Event[] = [
     title: "Dance Group",
     description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
     price: 3000,
-    date: "May 6th, 2023",
-    time: "10:00 AM - 12:00 PM",
-    venue: "Main Auditorium",
     image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
-    category: "cultural"
-  }
-
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+  {
+    id: 1,
+    title: "Dance Group",
+    description: "Experience authentic Mexican music with our talented Mariachi band. Learn about the history and cultural significance of Mariachi music in Mexico.",
+    price: 3000,
+    image: "https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8a?q=80&w=1974&auto=format&fit=crop",
+    
+  },
+                
   
 ];
 

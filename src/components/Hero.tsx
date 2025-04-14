@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Calendar, MapPin } from 'lucide-react';
 
 const Hero = () => {
-  return (
+  return ( 
     <>
       <div className="mirage-pc-image" />
       <div className="relative h-screen flex items-center justify-center overflow-hidden">

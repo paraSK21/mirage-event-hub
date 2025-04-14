@@ -64,7 +64,7 @@ const Events = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
               <span className="font-ahsing text-3xl">MIRAGE</span>
-              <span className="ml-2 text-mirage-yellow font-sunborn text-sm">2023</span>
+              <span className="ml-2 text-mirage-yellow font-sunborn text-sm">2025</span>
             </div>
             
             <div className="flex flex-col md:flex-row gap-4 md:gap-8">
@@ -77,7 +77,7 @@ const Events = () => {
           </div>
           
           <div className="border-t border-mirage-purple/30 mt-8 pt-8 text-center text-sm text-mirage-purple-200">
-            <p>&copy; 2023 MIRAGE. All rights reserved. Designed for Bharati Vidyapeeth DEEMED TO BE University Medical College</p>
+            <p>&copy; 2025 MIRAGE. All rights reserved. Designed for Bharati Vidyapeeth DEEMED TO BE University Medical College</p>
           </div>
         </div>
       </footer>

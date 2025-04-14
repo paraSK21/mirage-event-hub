@@ -52,12 +52,12 @@ const Navbar = () => {
               >
                 Events
               </Link>
-              <Link
+              {/* <Link
                 to="/schedule"
                 className={`${isActive('/schedule') ? 'bg-mirage-orange/80 text-white' : 'text-white hover:bg-mirage-purple/90 hover:text-mirage-yellow'} px-3 py-2 rounded-md text-sm font-medium font-sunborn transition duration-300`}
               >
                 Schedule
-              </Link>
+              </Link> */}
               <a
                 href="https://www.canva.com/design/DAGjw6Wb-0o/1dfeYL-XoknrkTbi75cp1A/edit"
                 target="_blank"
@@ -120,13 +120,13 @@ const Navbar = () => {
             >
               Events
             </Link>
-            <Link
+            {/* <Link
               to="/schedule"
               className={`${isActive('/schedule') ? 'bg-mirage-orange/80 text-white' : 'text-white hover:bg-mirage-purple/90 hover:text-mirage-yellow'} block px-3 py-2 rounded-md text-base font-medium font-sunborn`}
               onClick={toggleMenu}
             >
               Schedule
-            </Link>
+            </Link> */}
             <a
               href="https://www.canva.com/design/DAGjw6Wb-0o/1dfeYL-XoknrkTbi75cp1A/edit"
               target="_blank"
